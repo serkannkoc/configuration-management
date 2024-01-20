@@ -1,0 +1,11 @@
+// Import Bootstrap's SCSS
+@import "bootstrap/scss/bootstrap";
+
+// Your custom background color
+$body-bg: #1e1e2a;
+
+// Use your custom background color
+html body {
+  background-color: $body-bg;
+
+}

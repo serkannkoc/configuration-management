@@ -1,0 +1,24 @@
+{
+  "name": "case-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon v1/src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.0.0",
+    "helmet": "^7.1.0",
+    "http-status": "^1.7.3",
+    "joi": "^17.11.0",
+    "nodemon": "^3.0.3"
+  }
+}

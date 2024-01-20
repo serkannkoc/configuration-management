@@ -1,0 +1,36 @@
+// Login.scss
+
+// Define colors as variables
+$color-button-primary: #02dcce;
+$input-bg: #1e1e2a;
+$input-focus-bg: #2a2a3e;
+$input-border: #232739;
+$input-border-focus: #e14eca;
+$input-text: #6b737a;
+$input-text-focus: #636a72;
+$input-placeholder: #6b737a;
+
+.btn-primary {
+  background-color: $color-button-primary !important;
+  /* You may also want to adjust other styles like text color, etc. */
+}
+
+.form-control {
+  background-color: $input-bg;
+  color: $input-text;
+  border-color: $input-border;
+  /* Add other styles as needed */
+
+  &:focus {
+    background-color: $input-focus-bg;
+    border-color: $input-border-focus;
+    color: $input-text-focus;
+    box-shadow: none;
+    /* Add other styles for focused state */
+  }
+
+  &::placeholder {
+    color: $input-placeholder;
+    /* Add other styles for placeholder text if needed */
+  }
+}

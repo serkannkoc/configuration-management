@@ -1,0 +1,66 @@
+// Login.scss
+
+// Define colors as variables
+$color-text-primary: #32325d;
+$color-button-primary: #5069e3;
+$color-text-secondary: #6b737c;
+$input-bg: #1e1e2a;
+$input-focus-bg: #2a2a3e;
+$input-border: #232739;
+$input-border-focus: #e14eca;
+$input-text: #6b737a;
+$input-text-focus: #636a72;
+$input-placeholder: #6b737a;
+
+// Apply styles using variables
+.custom-h4 {
+  color: $color-text-primary;
+  /* Add other styles as needed */
+}
+
+.btn-primary {
+  background-color: $color-button-primary !important;
+  /* You may also want to adjust other styles like text color, etc. */
+}
+
+.custom-h6 {
+  color: $color-text-secondary;
+  /* Add other styles as needed */
+}
+
+.form-control {
+  background-color: $input-bg;
+  color: $input-text;
+  border-color: $input-border;
+  /* Add other styles as needed */
+
+  &:focus {
+    background-color: $input-focus-bg;
+    border-color: $input-border-focus;
+    color: $input-text-focus;
+    box-shadow: none;
+    /* Add other styles for focused state */
+  }
+
+  &::placeholder {
+    color: $input-placeholder;
+    /* Add other styles for placeholder text if needed */
+  }
+}
+
+.container-xxl {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -200px;
+
+  @media (max-width: 768px) {
+    margin-top: -150px;
+  }
+
+  @media (max-width: 576px) {
+    margin-top: -100px;
+  }
+}

@@ -1,0 +1,15 @@
+// NavbarComponent.scss
+
+// Add a higher specificity to override Bootstrap styles
+.navbar {
+  background-color: #1e1e2a;
+}
+
+.logo-img {
+  max-height: 30px;
+  margin-right: 10px;
+}
+
+.profile-img {
+  max-height: 30px;
+}
